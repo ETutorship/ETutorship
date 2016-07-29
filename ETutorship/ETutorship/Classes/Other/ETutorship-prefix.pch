@@ -10,5 +10,6 @@
 #define ETutorship_prefix_pch
 
 #import "AppConfig.h"
+#import <UIKit/UIKit.h>
 
 #endif /* ETutorship_prefix_pch */

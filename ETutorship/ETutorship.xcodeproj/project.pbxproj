@@ -7,31 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C5380511D17973A00D39ABB /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5380501D17973A00D39ABB /* MainVC.m */; };
-		9C6806921D3F1FD7008E114D /* StudentUCInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806901D3F1FD7008E114D /* StudentUCInfoCell.m */; };
-		9C6806931D3F1FD7008E114D /* StudentUCInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806911D3F1FD7008E114D /* StudentUCInfoCell.xib */; };
-		9C6806971D3F2071008E114D /* StudentUCVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806951D3F2071008E114D /* StudentUCVideoCell.m */; };
-		9C6806981D3F2071008E114D /* StudentUCVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806961D3F2071008E114D /* StudentUCVideoCell.xib */; };
-		9C68069C1D3F266A008E114D /* TeacherUserCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68069B1D3F266A008E114D /* TeacherUserCenterVC.m */; };
-		9C6806A11D3F278D008E114D /* TeacherUCTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68069F1D3F278D008E114D /* TeacherUCTitleCell.m */; };
-		9C6806A21D3F278D008E114D /* TeacherUCTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806A01D3F278D008E114D /* TeacherUCTitleCell.xib */; };
-		9C6806A61D3F2AF3008E114D /* TeacherUCInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806A41D3F2AF3008E114D /* TeacherUCInfoCell.m */; };
-		9C6806A71D3F2AF3008E114D /* TeacherUCInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806A51D3F2AF3008E114D /* TeacherUCInfoCell.xib */; };
-		9C6806AB1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806A91D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m */; };
-		9C6806AC1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806AA1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib */; };
-		9C6806B01D3F2C14008E114D /* TeacherUCMyUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806AE1D3F2C14008E114D /* TeacherUCMyUploadCell.m */; };
-		9C6806B11D3F2C14008E114D /* TeacherUCMyUploadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806AF1D3F2C14008E114D /* TeacherUCMyUploadCell.xib */; };
-		9C6806B51D3F2C80008E114D /* TeacherUCMyOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806B31D3F2C80008E114D /* TeacherUCMyOrderCell.m */; };
-		9C6806B61D3F2C80008E114D /* TeacherUCMyOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806B41D3F2C80008E114D /* TeacherUCMyOrderCell.xib */; };
-		9C6C4EE51D0EB1F400D91998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4EE41D0EB1F400D91998 /* main.m */; };
-		9C6C4EE81D0EB1F400D91998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4EE71D0EB1F400D91998 /* AppDelegate.m */; };
+		309A28431D4B9E80001AF7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28181D4B9E80001AF7D2 /* AppDelegate.m */; };
+		309A28441D4B9E80001AF7D2 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A281B1D4B9E80001AF7D2 /* MainVC.m */; };
+		309A28451D4B9E80001AF7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A281C1D4B9E80001AF7D2 /* main.m */; };
+		309A28461D4B9E80001AF7D2 /* StudentUCInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28261D4B9E80001AF7D2 /* StudentUCInfoCell.m */; };
+		309A28471D4B9E80001AF7D2 /* StudentUCInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A28271D4B9E80001AF7D2 /* StudentUCInfoCell.xib */; };
+		309A28481D4B9E80001AF7D2 /* StudentUCTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28291D4B9E80001AF7D2 /* StudentUCTitleCell.m */; };
+		309A28491D4B9E80001AF7D2 /* StudentUCTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A282A1D4B9E80001AF7D2 /* StudentUCTitleCell.xib */; };
+		309A284A1D4B9E80001AF7D2 /* StudentUCVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A282C1D4B9E80001AF7D2 /* StudentUCVideoCell.m */; };
+		309A284B1D4B9E80001AF7D2 /* StudentUCVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A282D1D4B9E80001AF7D2 /* StudentUCVideoCell.xib */; };
+		309A284C1D4B9E80001AF7D2 /* StudentUserCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A282F1D4B9E80001AF7D2 /* StudentUserCenterVC.m */; };
+		309A284D1D4B9E80001AF7D2 /* TeacherUCInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28331D4B9E80001AF7D2 /* TeacherUCInfoCell.m */; };
+		309A284E1D4B9E80001AF7D2 /* TeacherUCInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A28341D4B9E80001AF7D2 /* TeacherUCInfoCell.xib */; };
+		309A284F1D4B9E80001AF7D2 /* TeacherUCMyOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28361D4B9E80001AF7D2 /* TeacherUCMyOrderCell.m */; };
+		309A28501D4B9E80001AF7D2 /* TeacherUCMyOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A28371D4B9E80001AF7D2 /* TeacherUCMyOrderCell.xib */; };
+		309A28511D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28391D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.m */; };
+		309A28521D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A283A1D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.xib */; };
+		309A28531D4B9E80001AF7D2 /* TeacherUCMyUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A283C1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.m */; };
+		309A28541D4B9E80001AF7D2 /* TeacherUCMyUploadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A283D1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.xib */; };
+		309A28551D4B9E80001AF7D2 /* TeacherUCTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A283F1D4B9E80001AF7D2 /* TeacherUCTitleCell.m */; };
+		309A28561D4B9E80001AF7D2 /* TeacherUCTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A28401D4B9E80001AF7D2 /* TeacherUCTitleCell.xib */; };
+		309A28571D4B9E80001AF7D2 /* TeacherUserCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28421D4B9E80001AF7D2 /* TeacherUserCenterVC.m */; };
+		309A286B1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A285B1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.m */; };
+		309A286C1D4B9F85001AF7D2 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 309A285C1D4B9F85001AF7D2 /* MBProgressHUD.bundle */; };
+		309A286D1D4B9F85001AF7D2 /* NSArray+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A285E1D4B9F85001AF7D2 /* NSArray+ETExtension.m */; };
+		309A286E1D4B9F85001AF7D2 /* NSDate+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28601D4B9F85001AF7D2 /* NSDate+ETExtension.m */; };
+		309A286F1D4B9F85001AF7D2 /* NSDictionary+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28621D4B9F85001AF7D2 /* NSDictionary+ETExtension.m */; };
+		309A28701D4B9F85001AF7D2 /* NSString+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28641D4B9F85001AF7D2 /* NSString+ETExtension.m */; };
+		309A28711D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28661D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m */; };
+		309A28721D4B9F85001AF7D2 /* UIImage+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28681D4B9F85001AF7D2 /* UIImage+ETExtension.m */; };
+		309A28731D4B9F85001AF7D2 /* UIView+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A286A1D4B9F85001AF7D2 /* UIView+ETExtension.m */; };
+		9405358044B04AA4A2957353 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A5C693B262D949EB2B10B /* libPods.a */; };
 		9C6C4EF01D0EB1F400D91998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */; };
 		9C6C4EF31D0EB1F400D91998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EF11D0EB1F400D91998 /* LaunchScreen.storyboard */; };
 		9C6C4EFE1D0EB1F400D91998 /* ETutorshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4EFD1D0EB1F400D91998 /* ETutorshipTests.m */; };
 		9C6C4F091D0EB1F400D91998 /* ETutorshipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4F081D0EB1F400D91998 /* ETutorshipUITests.m */; };
-		9C76C8081D3E222F005861EB /* StudentUserCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76C8071D3E222F005861EB /* StudentUserCenterVC.m */; };
-		9C76C8171D3E2299005861EB /* StudentUCTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76C8151D3E2299005861EB /* StudentUCTitleCell.m */; };
-		9C76C8181D3E2299005861EB /* StudentUCTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C76C8161D3E2299005861EB /* StudentUCTitleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,35 +62,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C53804F1D17973A00D39ABB /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
-		9C5380501D17973A00D39ABB /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
-		9C68068F1D3F1FD7008E114D /* StudentUCInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCInfoCell.h; sourceTree = "<group>"; };
-		9C6806901D3F1FD7008E114D /* StudentUCInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCInfoCell.m; sourceTree = "<group>"; };
-		9C6806911D3F1FD7008E114D /* StudentUCInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCInfoCell.xib; sourceTree = "<group>"; };
-		9C6806941D3F2071008E114D /* StudentUCVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCVideoCell.h; sourceTree = "<group>"; };
-		9C6806951D3F2071008E114D /* StudentUCVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCVideoCell.m; sourceTree = "<group>"; };
-		9C6806961D3F2071008E114D /* StudentUCVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCVideoCell.xib; sourceTree = "<group>"; };
-		9C68069A1D3F266A008E114D /* TeacherUserCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUserCenterVC.h; sourceTree = "<group>"; };
-		9C68069B1D3F266A008E114D /* TeacherUserCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUserCenterVC.m; sourceTree = "<group>"; };
-		9C68069E1D3F278D008E114D /* TeacherUCTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCTitleCell.h; sourceTree = "<group>"; };
-		9C68069F1D3F278D008E114D /* TeacherUCTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCTitleCell.m; sourceTree = "<group>"; };
-		9C6806A01D3F278D008E114D /* TeacherUCTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCTitleCell.xib; sourceTree = "<group>"; };
-		9C6806A31D3F2AF3008E114D /* TeacherUCInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCInfoCell.h; sourceTree = "<group>"; };
-		9C6806A41D3F2AF3008E114D /* TeacherUCInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCInfoCell.m; sourceTree = "<group>"; };
-		9C6806A51D3F2AF3008E114D /* TeacherUCInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCInfoCell.xib; sourceTree = "<group>"; };
-		9C6806A81D3F2B9E008E114D /* TeacherUCMyPurchaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyPurchaseCell.h; sourceTree = "<group>"; };
-		9C6806A91D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyPurchaseCell.m; sourceTree = "<group>"; };
-		9C6806AA1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyPurchaseCell.xib; sourceTree = "<group>"; };
-		9C6806AD1D3F2C14008E114D /* TeacherUCMyUploadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyUploadCell.h; sourceTree = "<group>"; };
-		9C6806AE1D3F2C14008E114D /* TeacherUCMyUploadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyUploadCell.m; sourceTree = "<group>"; };
-		9C6806AF1D3F2C14008E114D /* TeacherUCMyUploadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyUploadCell.xib; sourceTree = "<group>"; };
-		9C6806B21D3F2C80008E114D /* TeacherUCMyOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyOrderCell.h; sourceTree = "<group>"; };
-		9C6806B31D3F2C80008E114D /* TeacherUCMyOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyOrderCell.m; sourceTree = "<group>"; };
-		9C6806B41D3F2C80008E114D /* TeacherUCMyOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyOrderCell.xib; sourceTree = "<group>"; };
+		309A28151D4B9E80001AF7D2 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		309A28171D4B9E80001AF7D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		309A28181D4B9E80001AF7D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309A281A1D4B9E80001AF7D2 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		309A281B1D4B9E80001AF7D2 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		309A281C1D4B9E80001AF7D2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309A28201D4B9E80001AF7D2 /* ETutorship-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ETutorship-prefix.pch"; path = "Other/ETutorship-prefix.pch"; sourceTree = "<group>"; };
+		309A28251D4B9E80001AF7D2 /* StudentUCInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCInfoCell.h; sourceTree = "<group>"; };
+		309A28261D4B9E80001AF7D2 /* StudentUCInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCInfoCell.m; sourceTree = "<group>"; };
+		309A28271D4B9E80001AF7D2 /* StudentUCInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCInfoCell.xib; sourceTree = "<group>"; };
+		309A28281D4B9E80001AF7D2 /* StudentUCTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCTitleCell.h; sourceTree = "<group>"; };
+		309A28291D4B9E80001AF7D2 /* StudentUCTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCTitleCell.m; sourceTree = "<group>"; };
+		309A282A1D4B9E80001AF7D2 /* StudentUCTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCTitleCell.xib; sourceTree = "<group>"; };
+		309A282B1D4B9E80001AF7D2 /* StudentUCVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCVideoCell.h; sourceTree = "<group>"; };
+		309A282C1D4B9E80001AF7D2 /* StudentUCVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCVideoCell.m; sourceTree = "<group>"; };
+		309A282D1D4B9E80001AF7D2 /* StudentUCVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCVideoCell.xib; sourceTree = "<group>"; };
+		309A282E1D4B9E80001AF7D2 /* StudentUserCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUserCenterVC.h; sourceTree = "<group>"; };
+		309A282F1D4B9E80001AF7D2 /* StudentUserCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUserCenterVC.m; sourceTree = "<group>"; };
+		309A28321D4B9E80001AF7D2 /* TeacherUCInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCInfoCell.h; sourceTree = "<group>"; };
+		309A28331D4B9E80001AF7D2 /* TeacherUCInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCInfoCell.m; sourceTree = "<group>"; };
+		309A28341D4B9E80001AF7D2 /* TeacherUCInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCInfoCell.xib; sourceTree = "<group>"; };
+		309A28351D4B9E80001AF7D2 /* TeacherUCMyOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyOrderCell.h; sourceTree = "<group>"; };
+		309A28361D4B9E80001AF7D2 /* TeacherUCMyOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyOrderCell.m; sourceTree = "<group>"; };
+		309A28371D4B9E80001AF7D2 /* TeacherUCMyOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyOrderCell.xib; sourceTree = "<group>"; };
+		309A28381D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyPurchaseCell.h; sourceTree = "<group>"; };
+		309A28391D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyPurchaseCell.m; sourceTree = "<group>"; };
+		309A283A1D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyPurchaseCell.xib; sourceTree = "<group>"; };
+		309A283B1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyUploadCell.h; sourceTree = "<group>"; };
+		309A283C1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyUploadCell.m; sourceTree = "<group>"; };
+		309A283D1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyUploadCell.xib; sourceTree = "<group>"; };
+		309A283E1D4B9E80001AF7D2 /* TeacherUCTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCTitleCell.h; sourceTree = "<group>"; };
+		309A283F1D4B9E80001AF7D2 /* TeacherUCTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCTitleCell.m; sourceTree = "<group>"; };
+		309A28401D4B9E80001AF7D2 /* TeacherUCTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCTitleCell.xib; sourceTree = "<group>"; };
+		309A28411D4B9E80001AF7D2 /* TeacherUserCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUserCenterVC.h; sourceTree = "<group>"; };
+		309A28421D4B9E80001AF7D2 /* TeacherUserCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUserCenterVC.m; sourceTree = "<group>"; };
+		309A28591D4B9F85001AF7D2 /* ETSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETSingleton.h; sourceTree = "<group>"; };
+		309A285A1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+ETExtension.h"; sourceTree = "<group>"; };
+		309A285B1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+ETExtension.m"; sourceTree = "<group>"; };
+		309A285C1D4B9F85001AF7D2 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		309A285D1D4B9F85001AF7D2 /* NSArray+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ETExtension.h"; sourceTree = "<group>"; };
+		309A285E1D4B9F85001AF7D2 /* NSArray+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ETExtension.m"; sourceTree = "<group>"; };
+		309A285F1D4B9F85001AF7D2 /* NSDate+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ETExtension.h"; sourceTree = "<group>"; };
+		309A28601D4B9F85001AF7D2 /* NSDate+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ETExtension.m"; sourceTree = "<group>"; };
+		309A28611D4B9F85001AF7D2 /* NSDictionary+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ETExtension.h"; sourceTree = "<group>"; };
+		309A28621D4B9F85001AF7D2 /* NSDictionary+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ETExtension.m"; sourceTree = "<group>"; };
+		309A28631D4B9F85001AF7D2 /* NSString+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ETExtension.h"; sourceTree = "<group>"; };
+		309A28641D4B9F85001AF7D2 /* NSString+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ETExtension.m"; sourceTree = "<group>"; };
+		309A28651D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ETExtension.h"; sourceTree = "<group>"; };
+		309A28661D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ETExtension.m"; sourceTree = "<group>"; };
+		309A28671D4B9F85001AF7D2 /* UIImage+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ETExtension.h"; sourceTree = "<group>"; };
+		309A28681D4B9F85001AF7D2 /* UIImage+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ETExtension.m"; sourceTree = "<group>"; };
+		309A28691D4B9F85001AF7D2 /* UIView+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ETExtension.h"; sourceTree = "<group>"; };
+		309A286A1D4B9F85001AF7D2 /* UIView+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ETExtension.m"; sourceTree = "<group>"; };
+		526F1EF6B38B00E776F7D8E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		752C5A9E0EFF9E9400BB01E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9C6C4EE01D0EB1F400D91998 /* ETutorship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETutorship.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C6C4EE41D0EB1F400D91998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9C6C4EE61D0EB1F400D91998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9C6C4EE71D0EB1F400D91998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C6C4EF21D0EB1F400D91998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C6C4EF41D0EB1F400D91998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,13 +127,7 @@
 		9C6C4F041D0EB1F400D91998 /* ETutorshipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETutorshipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6C4F081D0EB1F400D91998 /* ETutorshipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETutorshipUITests.m; sourceTree = "<group>"; };
 		9C6C4F0A1D0EB1F400D91998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C76C8031D3E17AA005861EB /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
-		9C76C8041D3E186B005861EB /* ETutorship-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ETutorship-prefix.pch"; sourceTree = "<group>"; };
-		9C76C8061D3E222F005861EB /* StudentUserCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUserCenterVC.h; sourceTree = "<group>"; };
-		9C76C8071D3E222F005861EB /* StudentUserCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUserCenterVC.m; sourceTree = "<group>"; };
-		9C76C8141D3E2299005861EB /* StudentUCTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCTitleCell.h; sourceTree = "<group>"; };
-		9C76C8151D3E2299005861EB /* StudentUCTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCTitleCell.m; sourceTree = "<group>"; };
-		9C76C8161D3E2299005861EB /* StudentUCTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCTitleCell.xib; sourceTree = "<group>"; };
+		C15A5C693B262D949EB2B10B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +135,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9405358044B04AA4A2957353 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,54 +156,185 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C5380471D17951600D39ABB /* UserCenter */ = {
+		309A28131D4B9E80001AF7D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9C6806991D3F263A008E114D /* Teacher */,
-				9C76C8051D3E222F005861EB /* Student */,
+				309A28141D4B9E80001AF7D2 /* AppConfig */,
+				309A28161D4B9E80001AF7D2 /* Main */,
+				309A281F1D4B9E80001AF7D2 /* Other */,
+				309A28201D4B9E80001AF7D2 /* ETutorship-prefix.pch */,
+				309A28221D4B9E80001AF7D2 /* UserCenter */,
 			);
-			path = UserCenter;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		9C53804B1D17969900D39ABB /* Main */ = {
+		309A28141D4B9E80001AF7D2 /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
-				9C53804F1D17973A00D39ABB /* MainVC.h */,
-				9C5380501D17973A00D39ABB /* MainVC.m */,
+				309A28151D4B9E80001AF7D2 /* AppConfig.h */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		309A28161D4B9E80001AF7D2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				309A281C1D4B9E80001AF7D2 /* main.m */,
+				309A28171D4B9E80001AF7D2 /* AppDelegate.h */,
+				309A28181D4B9E80001AF7D2 /* AppDelegate.m */,
+				309A28191D4B9E80001AF7D2 /* Controller */,
+				309A281D1D4B9E80001AF7D2 /* Model */,
+				309A281E1D4B9E80001AF7D2 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		9C6806991D3F263A008E114D /* Teacher */ = {
+		309A28191D4B9E80001AF7D2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9C68069A1D3F266A008E114D /* TeacherUserCenterVC.h */,
-				9C68069B1D3F266A008E114D /* TeacherUserCenterVC.m */,
-				9C68069D1D3F2760008E114D /* Cell */,
+				309A281A1D4B9E80001AF7D2 /* MainVC.h */,
+				309A281B1D4B9E80001AF7D2 /* MainVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		309A281D1D4B9E80001AF7D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		309A281E1D4B9E80001AF7D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		309A281F1D4B9E80001AF7D2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				309A28581D4B9F85001AF7D2 /* Category */,
+				309A28211D4B9E80001AF7D2 /* Lib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		309A28211D4B9E80001AF7D2 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		309A28221D4B9E80001AF7D2 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				309A28231D4B9E80001AF7D2 /* Student */,
+				309A28301D4B9E80001AF7D2 /* Teacher */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		309A28231D4B9E80001AF7D2 /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				309A28241D4B9E80001AF7D2 /* Cell */,
+				309A282E1D4B9E80001AF7D2 /* StudentUserCenterVC.h */,
+				309A282F1D4B9E80001AF7D2 /* StudentUserCenterVC.m */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		309A28241D4B9E80001AF7D2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				309A28251D4B9E80001AF7D2 /* StudentUCInfoCell.h */,
+				309A28261D4B9E80001AF7D2 /* StudentUCInfoCell.m */,
+				309A28271D4B9E80001AF7D2 /* StudentUCInfoCell.xib */,
+				309A28281D4B9E80001AF7D2 /* StudentUCTitleCell.h */,
+				309A28291D4B9E80001AF7D2 /* StudentUCTitleCell.m */,
+				309A282A1D4B9E80001AF7D2 /* StudentUCTitleCell.xib */,
+				309A282B1D4B9E80001AF7D2 /* StudentUCVideoCell.h */,
+				309A282C1D4B9E80001AF7D2 /* StudentUCVideoCell.m */,
+				309A282D1D4B9E80001AF7D2 /* StudentUCVideoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		309A28301D4B9E80001AF7D2 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				309A28311D4B9E80001AF7D2 /* Cell */,
+				309A28411D4B9E80001AF7D2 /* TeacherUserCenterVC.h */,
+				309A28421D4B9E80001AF7D2 /* TeacherUserCenterVC.m */,
 			);
 			path = Teacher;
 			sourceTree = "<group>";
 		};
-		9C68069D1D3F2760008E114D /* Cell */ = {
+		309A28311D4B9E80001AF7D2 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				9C68069E1D3F278D008E114D /* TeacherUCTitleCell.h */,
-				9C68069F1D3F278D008E114D /* TeacherUCTitleCell.m */,
-				9C6806A01D3F278D008E114D /* TeacherUCTitleCell.xib */,
-				9C6806A31D3F2AF3008E114D /* TeacherUCInfoCell.h */,
-				9C6806A41D3F2AF3008E114D /* TeacherUCInfoCell.m */,
-				9C6806A51D3F2AF3008E114D /* TeacherUCInfoCell.xib */,
-				9C6806A81D3F2B9E008E114D /* TeacherUCMyPurchaseCell.h */,
-				9C6806A91D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m */,
-				9C6806AA1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib */,
-				9C6806AD1D3F2C14008E114D /* TeacherUCMyUploadCell.h */,
-				9C6806AE1D3F2C14008E114D /* TeacherUCMyUploadCell.m */,
-				9C6806AF1D3F2C14008E114D /* TeacherUCMyUploadCell.xib */,
-				9C6806B21D3F2C80008E114D /* TeacherUCMyOrderCell.h */,
-				9C6806B31D3F2C80008E114D /* TeacherUCMyOrderCell.m */,
-				9C6806B41D3F2C80008E114D /* TeacherUCMyOrderCell.xib */,
+				309A28321D4B9E80001AF7D2 /* TeacherUCInfoCell.h */,
+				309A28331D4B9E80001AF7D2 /* TeacherUCInfoCell.m */,
+				309A28341D4B9E80001AF7D2 /* TeacherUCInfoCell.xib */,
+				309A28351D4B9E80001AF7D2 /* TeacherUCMyOrderCell.h */,
+				309A28361D4B9E80001AF7D2 /* TeacherUCMyOrderCell.m */,
+				309A28371D4B9E80001AF7D2 /* TeacherUCMyOrderCell.xib */,
+				309A28381D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.h */,
+				309A28391D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.m */,
+				309A283A1D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.xib */,
+				309A283B1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.h */,
+				309A283C1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.m */,
+				309A283D1D4B9E80001AF7D2 /* TeacherUCMyUploadCell.xib */,
+				309A283E1D4B9E80001AF7D2 /* TeacherUCTitleCell.h */,
+				309A283F1D4B9E80001AF7D2 /* TeacherUCTitleCell.m */,
+				309A28401D4B9E80001AF7D2 /* TeacherUCTitleCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		309A28581D4B9F85001AF7D2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				309A28591D4B9F85001AF7D2 /* ETSingleton.h */,
+				309A285A1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.h */,
+				309A285B1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.m */,
+				309A285C1D4B9F85001AF7D2 /* MBProgressHUD.bundle */,
+				309A285D1D4B9F85001AF7D2 /* NSArray+ETExtension.h */,
+				309A285E1D4B9F85001AF7D2 /* NSArray+ETExtension.m */,
+				309A285F1D4B9F85001AF7D2 /* NSDate+ETExtension.h */,
+				309A28601D4B9F85001AF7D2 /* NSDate+ETExtension.m */,
+				309A28611D4B9F85001AF7D2 /* NSDictionary+ETExtension.h */,
+				309A28621D4B9F85001AF7D2 /* NSDictionary+ETExtension.m */,
+				309A28631D4B9F85001AF7D2 /* NSString+ETExtension.h */,
+				309A28641D4B9F85001AF7D2 /* NSString+ETExtension.m */,
+				309A28651D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.h */,
+				309A28661D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m */,
+				309A28671D4B9F85001AF7D2 /* UIImage+ETExtension.h */,
+				309A28681D4B9F85001AF7D2 /* UIImage+ETExtension.m */,
+				309A28691D4B9F85001AF7D2 /* UIView+ETExtension.h */,
+				309A286A1D4B9F85001AF7D2 /* UIView+ETExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4EB012A05AC01D7A6D43B366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C15A5C693B262D949EB2B10B /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B89812B7DCC8B96CAFA79D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				526F1EF6B38B00E776F7D8E0 /* Pods.debug.xcconfig */,
+				752C5A9E0EFF9E9400BB01E8 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		9C6C4ED71D0EB1F400D91998 = {
@@ -181,6 +344,8 @@
 				9C6C4EFC1D0EB1F400D91998 /* ETutorshipTests */,
 				9C6C4F071D0EB1F400D91998 /* ETutorshipUITests */,
 				9C6C4EE11D0EB1F400D91998 /* Products */,
+				9B89812B7DCC8B96CAFA79D0 /* Pods */,
+				4EB012A05AC01D7A6D43B366 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,14 +362,9 @@
 		9C6C4EE21D0EB1F400D91998 /* ETutorship */ = {
 			isa = PBXGroup;
 			children = (
-				9C76C8021D3E178A005861EB /* AppConfig */,
-				9C53804B1D17969900D39ABB /* Main */,
-				9C5380471D17951600D39ABB /* UserCenter */,
-				9C6C4EE61D0EB1F400D91998 /* AppDelegate.h */,
-				9C6C4EE71D0EB1F400D91998 /* AppDelegate.m */,
+				309A28131D4B9E80001AF7D2 /* Classes */,
 				9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */,
 				9C6C4EF11D0EB1F400D91998 /* LaunchScreen.storyboard */,
-				9C6C4EF41D0EB1F400D91998 /* Info.plist */,
 				9C6C4EE31D0EB1F400D91998 /* Supporting Files */,
 			);
 			path = ETutorship;
@@ -213,8 +373,7 @@
 		9C6C4EE31D0EB1F400D91998 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C6C4EE41D0EB1F400D91998 /* main.m */,
-				9C76C8041D3E186B005861EB /* ETutorship-prefix.pch */,
+				9C6C4EF41D0EB1F400D91998 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,40 +396,6 @@
 			path = ETutorshipUITests;
 			sourceTree = "<group>";
 		};
-		9C76C8021D3E178A005861EB /* AppConfig */ = {
-			isa = PBXGroup;
-			children = (
-				9C76C8031D3E17AA005861EB /* AppConfig.h */,
-			);
-			path = AppConfig;
-			sourceTree = "<group>";
-		};
-		9C76C8051D3E222F005861EB /* Student */ = {
-			isa = PBXGroup;
-			children = (
-				9C76C8061D3E222F005861EB /* StudentUserCenterVC.h */,
-				9C76C8071D3E222F005861EB /* StudentUserCenterVC.m */,
-				9C76C8131D3E2299005861EB /* Cell */,
-			);
-			path = Student;
-			sourceTree = "<group>";
-		};
-		9C76C8131D3E2299005861EB /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				9C76C8141D3E2299005861EB /* StudentUCTitleCell.h */,
-				9C76C8151D3E2299005861EB /* StudentUCTitleCell.m */,
-				9C76C8161D3E2299005861EB /* StudentUCTitleCell.xib */,
-				9C68068F1D3F1FD7008E114D /* StudentUCInfoCell.h */,
-				9C6806901D3F1FD7008E114D /* StudentUCInfoCell.m */,
-				9C6806911D3F1FD7008E114D /* StudentUCInfoCell.xib */,
-				9C6806941D3F2071008E114D /* StudentUCVideoCell.h */,
-				9C6806951D3F2071008E114D /* StudentUCVideoCell.m */,
-				9C6806961D3F2071008E114D /* StudentUCVideoCell.xib */,
-			);
-			path = Cell;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -278,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C6C4F0D1D0EB1F400D91998 /* Build configuration list for PBXNativeTarget "ETutorship" */;
 			buildPhases = (
+				D11B7A7A3E92DA1A48CD904B /* Check Pods Manifest.lock */,
 				9C6C4EDC1D0EB1F400D91998 /* Sources */,
 				9C6C4EDD1D0EB1F400D91998 /* Frameworks */,
 				9C6C4EDE1D0EB1F400D91998 /* Resources */,
+				165846D6AFE82943F6B6283C /* Embed Pods Frameworks */,
+				D789F30B7B9C4046A2CD8A73 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -333,6 +461,7 @@
 		9C6C4ED81D0EB1F400D91998 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ET;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = ETutorship;
 				TargetAttributes = {
@@ -374,16 +503,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309A284E1D4B9E80001AF7D2 /* TeacherUCInfoCell.xib in Resources */,
+				309A28521D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.xib in Resources */,
+				309A28501D4B9E80001AF7D2 /* TeacherUCMyOrderCell.xib in Resources */,
+				309A286C1D4B9F85001AF7D2 /* MBProgressHUD.bundle in Resources */,
+				309A28561D4B9E80001AF7D2 /* TeacherUCTitleCell.xib in Resources */,
+				309A28491D4B9E80001AF7D2 /* StudentUCTitleCell.xib in Resources */,
 				9C6C4EF31D0EB1F400D91998 /* LaunchScreen.storyboard in Resources */,
-				9C6806AC1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib in Resources */,
-				9C6806931D3F1FD7008E114D /* StudentUCInfoCell.xib in Resources */,
+				309A28541D4B9E80001AF7D2 /* TeacherUCMyUploadCell.xib in Resources */,
 				9C6C4EF01D0EB1F400D91998 /* Assets.xcassets in Resources */,
-				9C76C8181D3E2299005861EB /* StudentUCTitleCell.xib in Resources */,
-				9C6806B11D3F2C14008E114D /* TeacherUCMyUploadCell.xib in Resources */,
-				9C6806A71D3F2AF3008E114D /* TeacherUCInfoCell.xib in Resources */,
-				9C6806B61D3F2C80008E114D /* TeacherUCMyOrderCell.xib in Resources */,
-				9C6806981D3F2071008E114D /* StudentUCVideoCell.xib in Resources */,
-				9C6806A21D3F278D008E114D /* TeacherUCTitleCell.xib in Resources */,
+				309A28471D4B9E80001AF7D2 /* StudentUCInfoCell.xib in Resources */,
+				309A284B1D4B9E80001AF7D2 /* StudentUCVideoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,24 +533,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		165846D6AFE82943F6B6283C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D11B7A7A3E92DA1A48CD904B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D789F30B7B9C4046A2CD8A73 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C6C4EDC1D0EB1F400D91998 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6806A11D3F278D008E114D /* TeacherUCTitleCell.m in Sources */,
-				9C6806971D3F2071008E114D /* StudentUCVideoCell.m in Sources */,
-				9C76C8081D3E222F005861EB /* StudentUserCenterVC.m in Sources */,
-				9C6806921D3F1FD7008E114D /* StudentUCInfoCell.m in Sources */,
-				9C6806B51D3F2C80008E114D /* TeacherUCMyOrderCell.m in Sources */,
-				9C6806A61D3F2AF3008E114D /* TeacherUCInfoCell.m in Sources */,
-				9C6806AB1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m in Sources */,
-				9C6C4EE81D0EB1F400D91998 /* AppDelegate.m in Sources */,
-				9C5380511D17973A00D39ABB /* MainVC.m in Sources */,
-				9C68069C1D3F266A008E114D /* TeacherUserCenterVC.m in Sources */,
-				9C6806B01D3F2C14008E114D /* TeacherUCMyUploadCell.m in Sources */,
-				9C6C4EE51D0EB1F400D91998 /* main.m in Sources */,
-				9C76C8171D3E2299005861EB /* StudentUCTitleCell.m in Sources */,
+				309A28431D4B9E80001AF7D2 /* AppDelegate.m in Sources */,
+				309A28511D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.m in Sources */,
+				309A28461D4B9E80001AF7D2 /* StudentUCInfoCell.m in Sources */,
+				309A28531D4B9E80001AF7D2 /* TeacherUCMyUploadCell.m in Sources */,
+				309A286D1D4B9F85001AF7D2 /* NSArray+ETExtension.m in Sources */,
+				309A28711D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m in Sources */,
+				309A28451D4B9E80001AF7D2 /* main.m in Sources */,
+				309A28731D4B9F85001AF7D2 /* UIView+ETExtension.m in Sources */,
+				309A28441D4B9E80001AF7D2 /* MainVC.m in Sources */,
+				309A28571D4B9E80001AF7D2 /* TeacherUserCenterVC.m in Sources */,
+				309A28701D4B9F85001AF7D2 /* NSString+ETExtension.m in Sources */,
+				309A28721D4B9F85001AF7D2 /* UIImage+ETExtension.m in Sources */,
+				309A286F1D4B9F85001AF7D2 /* NSDictionary+ETExtension.m in Sources */,
+				309A284C1D4B9E80001AF7D2 /* StudentUserCenterVC.m in Sources */,
+				309A284F1D4B9E80001AF7D2 /* TeacherUCMyOrderCell.m in Sources */,
+				309A28481D4B9E80001AF7D2 /* StudentUCTitleCell.m in Sources */,
+				309A28551D4B9E80001AF7D2 /* TeacherUCTitleCell.m in Sources */,
+				309A284D1D4B9E80001AF7D2 /* TeacherUCInfoCell.m in Sources */,
+				309A286B1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.m in Sources */,
+				309A284A1D4B9E80001AF7D2 /* StudentUCVideoCell.m in Sources */,
+				309A286E1D4B9F85001AF7D2 /* NSDate+ETExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,25 +739,35 @@
 		};
 		9C6C4F0E1D0EB1F400D91998 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526F1EF6B38B00E776F7D8E0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "ETutorship/ETutorship-prefix.pch";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETutorship/Classes/Other/ETutorship-prefix.pch";
 				INFOPLIST_FILE = ETutorship/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ETutorship;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ETutorship.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		9C6C4F0F1D0EB1F400D91998 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 752C5A9E0EFF9E9400BB01E8 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				GCC_PREFIX_HEADER = "ETutorship/ETutorship-prefix.pch";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ETutorship/Classes/Other/ETutorship-prefix.pch";
 				INFOPLIST_FILE = ETutorship/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ETutorship;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ETutorship.www;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
