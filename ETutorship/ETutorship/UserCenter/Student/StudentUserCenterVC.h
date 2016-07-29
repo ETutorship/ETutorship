@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  StudentUserCenterVC.h
 //  ETutorship
 //
-//  Created by 何英健 on 16/6/13.
+//  Created by 何英健 on 16/6/20.
 //  Copyright © 2016年 ETutorship. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface StudentUserCenterVC : UIViewController
 
 @end
-

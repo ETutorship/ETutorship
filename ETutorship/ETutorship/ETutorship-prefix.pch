@@ -1,0 +1,14 @@
+//
+//  ETutorship-prefix.pch
+//  ETutorship
+//
+//  Created by 何英健 on 16/7/19.
+//  Copyright © 2016年 ETutorship. All rights reserved.
+//
+
+#ifndef ETutorship_prefix_pch
+#define ETutorship_prefix_pch
+
+#import "AppConfig.h"
+
+#endif /* ETutorship_prefix_pch */

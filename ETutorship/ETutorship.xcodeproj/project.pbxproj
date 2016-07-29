@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C5380511D17973A00D39ABB /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5380501D17973A00D39ABB /* MainVC.m */; };
+		9C6806921D3F1FD7008E114D /* StudentUCInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806901D3F1FD7008E114D /* StudentUCInfoCell.m */; };
+		9C6806931D3F1FD7008E114D /* StudentUCInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806911D3F1FD7008E114D /* StudentUCInfoCell.xib */; };
+		9C6806971D3F2071008E114D /* StudentUCVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806951D3F2071008E114D /* StudentUCVideoCell.m */; };
+		9C6806981D3F2071008E114D /* StudentUCVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806961D3F2071008E114D /* StudentUCVideoCell.xib */; };
+		9C68069C1D3F266A008E114D /* TeacherUserCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68069B1D3F266A008E114D /* TeacherUserCenterVC.m */; };
+		9C6806A11D3F278D008E114D /* TeacherUCTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C68069F1D3F278D008E114D /* TeacherUCTitleCell.m */; };
+		9C6806A21D3F278D008E114D /* TeacherUCTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806A01D3F278D008E114D /* TeacherUCTitleCell.xib */; };
+		9C6806A61D3F2AF3008E114D /* TeacherUCInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806A41D3F2AF3008E114D /* TeacherUCInfoCell.m */; };
+		9C6806A71D3F2AF3008E114D /* TeacherUCInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806A51D3F2AF3008E114D /* TeacherUCInfoCell.xib */; };
+		9C6806AB1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806A91D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m */; };
+		9C6806AC1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806AA1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib */; };
+		9C6806B01D3F2C14008E114D /* TeacherUCMyUploadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806AE1D3F2C14008E114D /* TeacherUCMyUploadCell.m */; };
+		9C6806B11D3F2C14008E114D /* TeacherUCMyUploadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806AF1D3F2C14008E114D /* TeacherUCMyUploadCell.xib */; };
+		9C6806B51D3F2C80008E114D /* TeacherUCMyOrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6806B31D3F2C80008E114D /* TeacherUCMyOrderCell.m */; };
+		9C6806B61D3F2C80008E114D /* TeacherUCMyOrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C6806B41D3F2C80008E114D /* TeacherUCMyOrderCell.xib */; };
 		9C6C4EE51D0EB1F400D91998 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4EE41D0EB1F400D91998 /* main.m */; };
 		9C6C4EE81D0EB1F400D91998 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4EE71D0EB1F400D91998 /* AppDelegate.m */; };
-		9C6C4EEB1D0EB1F400D91998 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4EEA1D0EB1F400D91998 /* ViewController.m */; };
-		9C6C4EEE1D0EB1F400D91998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EEC1D0EB1F400D91998 /* Main.storyboard */; };
 		9C6C4EF01D0EB1F400D91998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */; };
 		9C6C4EF31D0EB1F400D91998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EF11D0EB1F400D91998 /* LaunchScreen.storyboard */; };
 		9C6C4EFE1D0EB1F400D91998 /* ETutorshipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4EFD1D0EB1F400D91998 /* ETutorshipTests.m */; };
 		9C6C4F091D0EB1F400D91998 /* ETutorshipUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6C4F081D0EB1F400D91998 /* ETutorshipUITests.m */; };
+		9C76C8081D3E222F005861EB /* StudentUserCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76C8071D3E222F005861EB /* StudentUserCenterVC.m */; };
+		9C76C8171D3E2299005861EB /* StudentUCTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C76C8151D3E2299005861EB /* StudentUCTitleCell.m */; };
+		9C76C8181D3E2299005861EB /* StudentUCTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C76C8161D3E2299005861EB /* StudentUCTitleCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +52,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C53804F1D17973A00D39ABB /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		9C5380501D17973A00D39ABB /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		9C68068F1D3F1FD7008E114D /* StudentUCInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCInfoCell.h; sourceTree = "<group>"; };
+		9C6806901D3F1FD7008E114D /* StudentUCInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCInfoCell.m; sourceTree = "<group>"; };
+		9C6806911D3F1FD7008E114D /* StudentUCInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCInfoCell.xib; sourceTree = "<group>"; };
+		9C6806941D3F2071008E114D /* StudentUCVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCVideoCell.h; sourceTree = "<group>"; };
+		9C6806951D3F2071008E114D /* StudentUCVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCVideoCell.m; sourceTree = "<group>"; };
+		9C6806961D3F2071008E114D /* StudentUCVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCVideoCell.xib; sourceTree = "<group>"; };
+		9C68069A1D3F266A008E114D /* TeacherUserCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUserCenterVC.h; sourceTree = "<group>"; };
+		9C68069B1D3F266A008E114D /* TeacherUserCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUserCenterVC.m; sourceTree = "<group>"; };
+		9C68069E1D3F278D008E114D /* TeacherUCTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCTitleCell.h; sourceTree = "<group>"; };
+		9C68069F1D3F278D008E114D /* TeacherUCTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCTitleCell.m; sourceTree = "<group>"; };
+		9C6806A01D3F278D008E114D /* TeacherUCTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCTitleCell.xib; sourceTree = "<group>"; };
+		9C6806A31D3F2AF3008E114D /* TeacherUCInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCInfoCell.h; sourceTree = "<group>"; };
+		9C6806A41D3F2AF3008E114D /* TeacherUCInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCInfoCell.m; sourceTree = "<group>"; };
+		9C6806A51D3F2AF3008E114D /* TeacherUCInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCInfoCell.xib; sourceTree = "<group>"; };
+		9C6806A81D3F2B9E008E114D /* TeacherUCMyPurchaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyPurchaseCell.h; sourceTree = "<group>"; };
+		9C6806A91D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyPurchaseCell.m; sourceTree = "<group>"; };
+		9C6806AA1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyPurchaseCell.xib; sourceTree = "<group>"; };
+		9C6806AD1D3F2C14008E114D /* TeacherUCMyUploadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyUploadCell.h; sourceTree = "<group>"; };
+		9C6806AE1D3F2C14008E114D /* TeacherUCMyUploadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyUploadCell.m; sourceTree = "<group>"; };
+		9C6806AF1D3F2C14008E114D /* TeacherUCMyUploadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyUploadCell.xib; sourceTree = "<group>"; };
+		9C6806B21D3F2C80008E114D /* TeacherUCMyOrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeacherUCMyOrderCell.h; sourceTree = "<group>"; };
+		9C6806B31D3F2C80008E114D /* TeacherUCMyOrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeacherUCMyOrderCell.m; sourceTree = "<group>"; };
+		9C6806B41D3F2C80008E114D /* TeacherUCMyOrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeacherUCMyOrderCell.xib; sourceTree = "<group>"; };
 		9C6C4EE01D0EB1F400D91998 /* ETutorship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETutorship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6C4EE41D0EB1F400D91998 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9C6C4EE61D0EB1F400D91998 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C6C4EE71D0EB1F400D91998 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C6C4EE91D0EB1F400D91998 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C6C4EEA1D0EB1F400D91998 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9C6C4EED1D0EB1F400D91998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C6C4EF21D0EB1F400D91998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C6C4EF41D0EB1F400D91998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +90,13 @@
 		9C6C4F041D0EB1F400D91998 /* ETutorshipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ETutorshipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C6C4F081D0EB1F400D91998 /* ETutorshipUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETutorshipUITests.m; sourceTree = "<group>"; };
 		9C6C4F0A1D0EB1F400D91998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C76C8031D3E17AA005861EB /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
+		9C76C8041D3E186B005861EB /* ETutorship-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ETutorship-prefix.pch"; sourceTree = "<group>"; };
+		9C76C8061D3E222F005861EB /* StudentUserCenterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUserCenterVC.h; sourceTree = "<group>"; };
+		9C76C8071D3E222F005861EB /* StudentUserCenterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUserCenterVC.m; sourceTree = "<group>"; };
+		9C76C8141D3E2299005861EB /* StudentUCTitleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCTitleCell.h; sourceTree = "<group>"; };
+		9C76C8151D3E2299005861EB /* StudentUCTitleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentUCTitleCell.m; sourceTree = "<group>"; };
+		9C76C8161D3E2299005861EB /* StudentUCTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentUCTitleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +124,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C5380471D17951600D39ABB /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9C6806991D3F263A008E114D /* Teacher */,
+				9C76C8051D3E222F005861EB /* Student */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		9C53804B1D17969900D39ABB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9C53804F1D17973A00D39ABB /* MainVC.h */,
+				9C5380501D17973A00D39ABB /* MainVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9C6806991D3F263A008E114D /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				9C68069A1D3F266A008E114D /* TeacherUserCenterVC.h */,
+				9C68069B1D3F266A008E114D /* TeacherUserCenterVC.m */,
+				9C68069D1D3F2760008E114D /* Cell */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		9C68069D1D3F2760008E114D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9C68069E1D3F278D008E114D /* TeacherUCTitleCell.h */,
+				9C68069F1D3F278D008E114D /* TeacherUCTitleCell.m */,
+				9C6806A01D3F278D008E114D /* TeacherUCTitleCell.xib */,
+				9C6806A31D3F2AF3008E114D /* TeacherUCInfoCell.h */,
+				9C6806A41D3F2AF3008E114D /* TeacherUCInfoCell.m */,
+				9C6806A51D3F2AF3008E114D /* TeacherUCInfoCell.xib */,
+				9C6806A81D3F2B9E008E114D /* TeacherUCMyPurchaseCell.h */,
+				9C6806A91D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m */,
+				9C6806AA1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib */,
+				9C6806AD1D3F2C14008E114D /* TeacherUCMyUploadCell.h */,
+				9C6806AE1D3F2C14008E114D /* TeacherUCMyUploadCell.m */,
+				9C6806AF1D3F2C14008E114D /* TeacherUCMyUploadCell.xib */,
+				9C6806B21D3F2C80008E114D /* TeacherUCMyOrderCell.h */,
+				9C6806B31D3F2C80008E114D /* TeacherUCMyOrderCell.m */,
+				9C6806B41D3F2C80008E114D /* TeacherUCMyOrderCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		9C6C4ED71D0EB1F400D91998 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +197,11 @@
 		9C6C4EE21D0EB1F400D91998 /* ETutorship */ = {
 			isa = PBXGroup;
 			children = (
+				9C76C8021D3E178A005861EB /* AppConfig */,
+				9C53804B1D17969900D39ABB /* Main */,
+				9C5380471D17951600D39ABB /* UserCenter */,
 				9C6C4EE61D0EB1F400D91998 /* AppDelegate.h */,
 				9C6C4EE71D0EB1F400D91998 /* AppDelegate.m */,
-				9C6C4EE91D0EB1F400D91998 /* ViewController.h */,
-				9C6C4EEA1D0EB1F400D91998 /* ViewController.m */,
-				9C6C4EEC1D0EB1F400D91998 /* Main.storyboard */,
 				9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */,
 				9C6C4EF11D0EB1F400D91998 /* LaunchScreen.storyboard */,
 				9C6C4EF41D0EB1F400D91998 /* Info.plist */,
@@ -118,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				9C6C4EE41D0EB1F400D91998 /* main.m */,
+				9C76C8041D3E186B005861EB /* ETutorship-prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +235,40 @@
 				9C6C4F0A1D0EB1F400D91998 /* Info.plist */,
 			);
 			path = ETutorshipUITests;
+			sourceTree = "<group>";
+		};
+		9C76C8021D3E178A005861EB /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				9C76C8031D3E17AA005861EB /* AppConfig.h */,
+			);
+			path = AppConfig;
+			sourceTree = "<group>";
+		};
+		9C76C8051D3E222F005861EB /* Student */ = {
+			isa = PBXGroup;
+			children = (
+				9C76C8061D3E222F005861EB /* StudentUserCenterVC.h */,
+				9C76C8071D3E222F005861EB /* StudentUserCenterVC.m */,
+				9C76C8131D3E2299005861EB /* Cell */,
+			);
+			path = Student;
+			sourceTree = "<group>";
+		};
+		9C76C8131D3E2299005861EB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9C76C8141D3E2299005861EB /* StudentUCTitleCell.h */,
+				9C76C8151D3E2299005861EB /* StudentUCTitleCell.m */,
+				9C76C8161D3E2299005861EB /* StudentUCTitleCell.xib */,
+				9C68068F1D3F1FD7008E114D /* StudentUCInfoCell.h */,
+				9C6806901D3F1FD7008E114D /* StudentUCInfoCell.m */,
+				9C6806911D3F1FD7008E114D /* StudentUCInfoCell.xib */,
+				9C6806941D3F2071008E114D /* StudentUCVideoCell.h */,
+				9C6806951D3F2071008E114D /* StudentUCVideoCell.m */,
+				9C6806961D3F2071008E114D /* StudentUCVideoCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +375,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C6C4EF31D0EB1F400D91998 /* LaunchScreen.storyboard in Resources */,
+				9C6806AC1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.xib in Resources */,
+				9C6806931D3F1FD7008E114D /* StudentUCInfoCell.xib in Resources */,
 				9C6C4EF01D0EB1F400D91998 /* Assets.xcassets in Resources */,
-				9C6C4EEE1D0EB1F400D91998 /* Main.storyboard in Resources */,
+				9C76C8181D3E2299005861EB /* StudentUCTitleCell.xib in Resources */,
+				9C6806B11D3F2C14008E114D /* TeacherUCMyUploadCell.xib in Resources */,
+				9C6806A71D3F2AF3008E114D /* TeacherUCInfoCell.xib in Resources */,
+				9C6806B61D3F2C80008E114D /* TeacherUCMyOrderCell.xib in Resources */,
+				9C6806981D3F2071008E114D /* StudentUCVideoCell.xib in Resources */,
+				9C6806A21D3F278D008E114D /* TeacherUCTitleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +408,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C6C4EEB1D0EB1F400D91998 /* ViewController.m in Sources */,
+				9C6806A11D3F278D008E114D /* TeacherUCTitleCell.m in Sources */,
+				9C6806971D3F2071008E114D /* StudentUCVideoCell.m in Sources */,
+				9C76C8081D3E222F005861EB /* StudentUserCenterVC.m in Sources */,
+				9C6806921D3F1FD7008E114D /* StudentUCInfoCell.m in Sources */,
+				9C6806B51D3F2C80008E114D /* TeacherUCMyOrderCell.m in Sources */,
+				9C6806A61D3F2AF3008E114D /* TeacherUCInfoCell.m in Sources */,
+				9C6806AB1D3F2B9E008E114D /* TeacherUCMyPurchaseCell.m in Sources */,
 				9C6C4EE81D0EB1F400D91998 /* AppDelegate.m in Sources */,
+				9C5380511D17973A00D39ABB /* MainVC.m in Sources */,
+				9C68069C1D3F266A008E114D /* TeacherUserCenterVC.m in Sources */,
+				9C6806B01D3F2C14008E114D /* TeacherUCMyUploadCell.m in Sources */,
 				9C6C4EE51D0EB1F400D91998 /* main.m in Sources */,
+				9C76C8171D3E2299005861EB /* StudentUCTitleCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +456,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9C6C4EEC1D0EB1F400D91998 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9C6C4EED1D0EB1F400D91998 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9C6C4EF11D0EB1F400D91998 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -415,6 +555,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ETutorship/ETutorship-prefix.pch";
 				INFOPLIST_FILE = ETutorship/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ETutorship;
@@ -426,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "ETutorship/ETutorship-prefix.pch";
 				INFOPLIST_FILE = ETutorship/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ETutorship;
@@ -498,6 +640,7 @@
 				9C6C4F0F1D0EB1F400D91998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C6C4F101D0EB1F400D91998 /* Build configuration list for PBXNativeTarget "ETutorshipTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +649,7 @@
 				9C6C4F121D0EB1F400D91998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C6C4F131D0EB1F400D91998 /* Build configuration list for PBXNativeTarget "ETutorshipUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +658,7 @@
 				9C6C4F151D0EB1F400D91998 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

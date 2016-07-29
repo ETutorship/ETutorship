@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TeacherUCTitleCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fwy-to-3xQ">
+                        <rect key="frame" x="20" y="20" width="60" height="60"/>
+                        <color key="backgroundColor" red="1" green="0.77304593759999995" blue="0.37690865070000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="M6d-v8-dVB"/>
+                            <constraint firstAttribute="height" constant="60" id="srp-qB-LPk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="老师" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hw-ac-O1V">
+                        <rect key="frame" x="100" y="39" width="200" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fwy-to-3xQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="84a-ae-DiM"/>
+                    <constraint firstItem="Fwy-to-3xQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Pz9-2X-Xai"/>
+                    <constraint firstItem="5hw-ac-O1V" firstAttribute="leading" secondItem="Fwy-to-3xQ" secondAttribute="trailing" constant="20" id="XAa-J1-cYq"/>
+                    <constraint firstItem="5hw-ac-O1V" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="o3f-fc-u6G"/>
+                    <constraint firstAttribute="trailing" secondItem="5hw-ac-O1V" secondAttribute="trailing" constant="20" id="qGg-pr-aq8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="icon" destination="Fwy-to-3xQ" id="x46-rA-dlI"/>
+                <outlet property="name" destination="5hw-ac-O1V" id="nZJ-pG-WAh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
