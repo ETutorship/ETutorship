@@ -11,5 +11,11 @@
 
 #import "AppConfig.h"
 #import <UIKit/UIKit.h>
+#import "UIImage+ETExtension.h"
+#import "UIView+ETExtension.h"
+#import "UIBarButtonItem+ETExtension.h"
+#import "NSString+ETExtension.h"
+#import "NSDate+ETExtension.h"
+#import "MBProgressHUD+ETExtension.h"
 
 #endif /* ETutorship_prefix_pch */

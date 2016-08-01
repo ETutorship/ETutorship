@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		309A28431D4B9E80001AF7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28181D4B9E80001AF7D2 /* AppDelegate.m */; };
-		309A28441D4B9E80001AF7D2 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A281B1D4B9E80001AF7D2 /* MainVC.m */; };
 		309A28451D4B9E80001AF7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A281C1D4B9E80001AF7D2 /* main.m */; };
 		309A28461D4B9E80001AF7D2 /* StudentUCInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28261D4B9E80001AF7D2 /* StudentUCInfoCell.m */; };
 		309A28471D4B9E80001AF7D2 /* StudentUCInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 309A28271D4B9E80001AF7D2 /* StudentUCInfoCell.xib */; };
@@ -37,6 +36,11 @@
 		309A28711D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28661D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m */; };
 		309A28721D4B9F85001AF7D2 /* UIImage+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A28681D4B9F85001AF7D2 /* UIImage+ETExtension.m */; };
 		309A28731D4B9F85001AF7D2 /* UIView+ETExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 309A286A1D4B9F85001AF7D2 /* UIView+ETExtension.m */; };
+		30C0E35F1D4FAB0A00F97EF2 /* ETTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0E35E1D4FAB0A00F97EF2 /* ETTabBarController.m */; };
+		30C0E3621D4FAB3800F97EF2 /* ETNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0E3611D4FAB3800F97EF2 /* ETNavigationController.m */; };
+		30C0E3681D4FACB400F97EF2 /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0E3671D4FACB400F97EF2 /* MainVC.m */; };
+		30C0E36E1D4FACEF00F97EF2 /* ETFindTeacherVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0E36D1D4FACEF00F97EF2 /* ETFindTeacherVC.m */; };
+		30C0E3711D4FAD0500F97EF2 /* ETFindVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C0E3701D4FAD0500F97EF2 /* ETFindVideoVC.m */; };
 		9405358044B04AA4A2957353 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A5C693B262D949EB2B10B /* libPods.a */; };
 		9C6C4EF01D0EB1F400D91998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */; };
 		9C6C4EF31D0EB1F400D91998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EF11D0EB1F400D91998 /* LaunchScreen.storyboard */; };
@@ -65,8 +69,6 @@
 		309A28151D4B9E80001AF7D2 /* AppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConfig.h; sourceTree = "<group>"; };
 		309A28171D4B9E80001AF7D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		309A28181D4B9E80001AF7D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		309A281A1D4B9E80001AF7D2 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
-		309A281B1D4B9E80001AF7D2 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
 		309A281C1D4B9E80001AF7D2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		309A28201D4B9E80001AF7D2 /* ETutorship-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ETutorship-prefix.pch"; path = "Other/ETutorship-prefix.pch"; sourceTree = "<group>"; };
 		309A28251D4B9E80001AF7D2 /* StudentUCInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentUCInfoCell.h; sourceTree = "<group>"; };
@@ -115,6 +117,16 @@
 		309A28681D4B9F85001AF7D2 /* UIImage+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ETExtension.m"; sourceTree = "<group>"; };
 		309A28691D4B9F85001AF7D2 /* UIView+ETExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ETExtension.h"; sourceTree = "<group>"; };
 		309A286A1D4B9F85001AF7D2 /* UIView+ETExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ETExtension.m"; sourceTree = "<group>"; };
+		30C0E35D1D4FAB0A00F97EF2 /* ETTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETTabBarController.h; sourceTree = "<group>"; };
+		30C0E35E1D4FAB0A00F97EF2 /* ETTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETTabBarController.m; sourceTree = "<group>"; };
+		30C0E3601D4FAB3800F97EF2 /* ETNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETNavigationController.h; sourceTree = "<group>"; };
+		30C0E3611D4FAB3800F97EF2 /* ETNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETNavigationController.m; sourceTree = "<group>"; };
+		30C0E3661D4FACB400F97EF2 /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		30C0E3671D4FACB400F97EF2 /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		30C0E36C1D4FACEF00F97EF2 /* ETFindTeacherVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFindTeacherVC.h; sourceTree = "<group>"; };
+		30C0E36D1D4FACEF00F97EF2 /* ETFindTeacherVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFindTeacherVC.m; sourceTree = "<group>"; };
+		30C0E36F1D4FAD0500F97EF2 /* ETFindVideoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETFindVideoVC.h; sourceTree = "<group>"; };
+		30C0E3701D4FAD0500F97EF2 /* ETFindVideoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETFindVideoVC.m; sourceTree = "<group>"; };
 		526F1EF6B38B00E776F7D8E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		752C5A9E0EFF9E9400BB01E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9C6C4EE01D0EB1F400D91998 /* ETutorship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETutorship.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +171,9 @@
 		309A28131D4B9E80001AF7D2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				30C0E3641D4FACB400F97EF2 /* FindVideo */,
+				30C0E3631D4FACB400F97EF2 /* FindTeacher */,
+				30C0E3651D4FACB400F97EF2 /* User */,
 				309A28141D4B9E80001AF7D2 /* AppConfig */,
 				309A28161D4B9E80001AF7D2 /* Main */,
 				309A281F1D4B9E80001AF7D2 /* Other */,
@@ -192,8 +207,10 @@
 		309A28191D4B9E80001AF7D2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				309A281A1D4B9E80001AF7D2 /* MainVC.h */,
-				309A281B1D4B9E80001AF7D2 /* MainVC.m */,
+				30C0E35D1D4FAB0A00F97EF2 /* ETTabBarController.h */,
+				30C0E35E1D4FAB0A00F97EF2 /* ETTabBarController.m */,
+				30C0E3601D4FAB3800F97EF2 /* ETNavigationController.h */,
+				30C0E3611D4FAB3800F97EF2 /* ETNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -318,6 +335,33 @@
 				309A286A1D4B9F85001AF7D2 /* UIView+ETExtension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		30C0E3631D4FACB400F97EF2 /* FindTeacher */ = {
+			isa = PBXGroup;
+			children = (
+				30C0E36C1D4FACEF00F97EF2 /* ETFindTeacherVC.h */,
+				30C0E36D1D4FACEF00F97EF2 /* ETFindTeacherVC.m */,
+			);
+			path = FindTeacher;
+			sourceTree = "<group>";
+		};
+		30C0E3641D4FACB400F97EF2 /* FindVideo */ = {
+			isa = PBXGroup;
+			children = (
+				30C0E36F1D4FAD0500F97EF2 /* ETFindVideoVC.h */,
+				30C0E3701D4FAD0500F97EF2 /* ETFindVideoVC.m */,
+			);
+			path = FindVideo;
+			sourceTree = "<group>";
+		};
+		30C0E3651D4FACB400F97EF2 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				30C0E3661D4FACB400F97EF2 /* MainVC.h */,
+				30C0E3671D4FACB400F97EF2 /* MainVC.m */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 		4EB012A05AC01D7A6D43B366 /* Frameworks */ = {
@@ -592,9 +636,11 @@
 				309A28531D4B9E80001AF7D2 /* TeacherUCMyUploadCell.m in Sources */,
 				309A286D1D4B9F85001AF7D2 /* NSArray+ETExtension.m in Sources */,
 				309A28711D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m in Sources */,
+				30C0E35F1D4FAB0A00F97EF2 /* ETTabBarController.m in Sources */,
 				309A28451D4B9E80001AF7D2 /* main.m in Sources */,
+				30C0E3621D4FAB3800F97EF2 /* ETNavigationController.m in Sources */,
 				309A28731D4B9F85001AF7D2 /* UIView+ETExtension.m in Sources */,
-				309A28441D4B9E80001AF7D2 /* MainVC.m in Sources */,
+				30C0E3711D4FAD0500F97EF2 /* ETFindVideoVC.m in Sources */,
 				309A28571D4B9E80001AF7D2 /* TeacherUserCenterVC.m in Sources */,
 				309A28701D4B9F85001AF7D2 /* NSString+ETExtension.m in Sources */,
 				309A28721D4B9F85001AF7D2 /* UIImage+ETExtension.m in Sources */,
@@ -605,6 +651,8 @@
 				309A28551D4B9E80001AF7D2 /* TeacherUCTitleCell.m in Sources */,
 				309A284D1D4B9E80001AF7D2 /* TeacherUCInfoCell.m in Sources */,
 				309A286B1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.m in Sources */,
+				30C0E36E1D4FACEF00F97EF2 /* ETFindTeacherVC.m in Sources */,
+				30C0E3681D4FACB400F97EF2 /* MainVC.m in Sources */,
 				309A284A1D4B9E80001AF7D2 /* StudentUCVideoCell.m in Sources */,
 				309A286E1D4B9F85001AF7D2 /* NSDate+ETExtension.m in Sources */,
 			);

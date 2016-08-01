@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainVC.h"
+#import "ETTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,11 +16,11 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[MainVC alloc] init]];
-    
+    ETTabBarController *tabBarVC = [[ETTabBarController alloc] init];
+    self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
 
     return YES;
