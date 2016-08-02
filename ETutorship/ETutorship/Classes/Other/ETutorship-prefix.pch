@@ -9,6 +9,13 @@
 #ifndef ETutorship_prefix_pch
 #define ETutorship_prefix_pch
 
+#define classmethod [NSString stringWithFormat:@"%s %d 行 \n",__func__,__LINE__]
+#ifdef DEBUG
+#define ETLog(...) NSLog(@"%@ %@\n\n",classmethod,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define ETLog(...)
+#endif
+
 #import "AppConfig.h"
 #import <UIKit/UIKit.h>
 #import "UIImage+ETExtension.h"
