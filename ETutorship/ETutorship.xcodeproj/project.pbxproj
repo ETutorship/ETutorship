@@ -45,6 +45,11 @@
 		30FB2DD01D50D760001E289F /* ETFindVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB2DCE1D50D760001E289F /* ETFindVideoCell.m */; };
 		30FB2DD11D50D760001E289F /* ETFindVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FB2DCF1D50D760001E289F /* ETFindVideoCell.xib */; };
 		30FB2DD41D50E07A001E289F /* ETBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB2DD31D50E07A001E289F /* ETBannerView.m */; };
+		30FB2DD71D50E6E1001E289F /* ETVideoSearchResultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB2DD61D50E6E1001E289F /* ETVideoSearchResultVC.m */; };
+		30FB2DDA1D50E8C9001E289F /* ETVideoSearchResultTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB2DD91D50E8C9001E289F /* ETVideoSearchResultTopBar.m */; };
+		30FB2DDC1D50E937001E289F /* ETVideoSearchResultTopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FB2DDB1D50E937001E289F /* ETVideoSearchResultTopBar.xib */; };
+		30FB2DE01D50ECA6001E289F /* ETVideoSearchResultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FB2DDE1D50ECA6001E289F /* ETVideoSearchResultCell.m */; };
+		30FB2DE11D50ECA6001E289F /* ETVideoSearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FB2DDF1D50ECA6001E289F /* ETVideoSearchResultCell.xib */; };
 		9405358044B04AA4A2957353 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A5C693B262D949EB2B10B /* libPods.a */; };
 		9C6C4EF01D0EB1F400D91998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EEF1D0EB1F400D91998 /* Assets.xcassets */; };
 		9C6C4EF31D0EB1F400D91998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6C4EF11D0EB1F400D91998 /* LaunchScreen.storyboard */; };
@@ -138,6 +143,14 @@
 		30FB2DCF1D50D760001E289F /* ETFindVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ETFindVideoCell.xib; sourceTree = "<group>"; };
 		30FB2DD21D50E07A001E289F /* ETBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBannerView.h; sourceTree = "<group>"; };
 		30FB2DD31D50E07A001E289F /* ETBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBannerView.m; sourceTree = "<group>"; };
+		30FB2DD51D50E6E1001E289F /* ETVideoSearchResultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETVideoSearchResultVC.h; sourceTree = "<group>"; };
+		30FB2DD61D50E6E1001E289F /* ETVideoSearchResultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETVideoSearchResultVC.m; sourceTree = "<group>"; };
+		30FB2DD81D50E8C9001E289F /* ETVideoSearchResultTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETVideoSearchResultTopBar.h; sourceTree = "<group>"; };
+		30FB2DD91D50E8C9001E289F /* ETVideoSearchResultTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETVideoSearchResultTopBar.m; sourceTree = "<group>"; };
+		30FB2DDB1D50E937001E289F /* ETVideoSearchResultTopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ETVideoSearchResultTopBar.xib; sourceTree = "<group>"; };
+		30FB2DDD1D50ECA6001E289F /* ETVideoSearchResultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETVideoSearchResultCell.h; sourceTree = "<group>"; };
+		30FB2DDE1D50ECA6001E289F /* ETVideoSearchResultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETVideoSearchResultCell.m; sourceTree = "<group>"; };
+		30FB2DDF1D50ECA6001E289F /* ETVideoSearchResultCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ETVideoSearchResultCell.xib; sourceTree = "<group>"; };
 		526F1EF6B38B00E776F7D8E0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		752C5A9E0EFF9E9400BB01E8 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9C6C4EE01D0EB1F400D91998 /* ETutorship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ETutorship.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -382,6 +395,8 @@
 			children = (
 				30FB2DBF1D50D245001E289F /* ETFindVideoVC.h */,
 				30FB2DC01D50D245001E289F /* ETFindVideoVC.m */,
+				30FB2DD51D50E6E1001E289F /* ETVideoSearchResultVC.h */,
+				30FB2DD61D50E6E1001E289F /* ETVideoSearchResultVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -403,6 +418,12 @@
 				30FB2DCF1D50D760001E289F /* ETFindVideoCell.xib */,
 				30FB2DD21D50E07A001E289F /* ETBannerView.h */,
 				30FB2DD31D50E07A001E289F /* ETBannerView.m */,
+				30FB2DD81D50E8C9001E289F /* ETVideoSearchResultTopBar.h */,
+				30FB2DD91D50E8C9001E289F /* ETVideoSearchResultTopBar.m */,
+				30FB2DDB1D50E937001E289F /* ETVideoSearchResultTopBar.xib */,
+				30FB2DDD1D50ECA6001E289F /* ETVideoSearchResultCell.h */,
+				30FB2DDE1D50ECA6001E289F /* ETVideoSearchResultCell.m */,
+				30FB2DDF1D50ECA6001E289F /* ETVideoSearchResultCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,10 +636,12 @@
 			files = (
 				309A284E1D4B9E80001AF7D2 /* TeacherUCInfoCell.xib in Resources */,
 				30FB2DD11D50D760001E289F /* ETFindVideoCell.xib in Resources */,
+				30FB2DDC1D50E937001E289F /* ETVideoSearchResultTopBar.xib in Resources */,
 				309A28521D4B9E80001AF7D2 /* TeacherUCMyPurchaseCell.xib in Resources */,
 				309A28501D4B9E80001AF7D2 /* TeacherUCMyOrderCell.xib in Resources */,
 				309A286C1D4B9F85001AF7D2 /* MBProgressHUD.bundle in Resources */,
 				309A28561D4B9E80001AF7D2 /* TeacherUCTitleCell.xib in Resources */,
+				30FB2DE11D50ECA6001E289F /* ETVideoSearchResultCell.xib in Resources */,
 				309A28491D4B9E80001AF7D2 /* StudentUCTitleCell.xib in Resources */,
 				9C6C4EF31D0EB1F400D91998 /* LaunchScreen.storyboard in Resources */,
 				309A28541D4B9E80001AF7D2 /* TeacherUCMyUploadCell.xib in Resources */,
@@ -704,10 +727,12 @@
 				309A286D1D4B9F85001AF7D2 /* NSArray+ETExtension.m in Sources */,
 				309A28711D4B9F85001AF7D2 /* UIBarButtonItem+ETExtension.m in Sources */,
 				30FB2DCC1D50D267001E289F /* ETSearchBar.m in Sources */,
+				30FB2DDA1D50E8C9001E289F /* ETVideoSearchResultTopBar.m in Sources */,
 				30FB2DD41D50E07A001E289F /* ETBannerView.m in Sources */,
 				30C0E35F1D4FAB0A00F97EF2 /* ETTabBarController.m in Sources */,
 				30FB2DD01D50D760001E289F /* ETFindVideoCell.m in Sources */,
 				309A28451D4B9E80001AF7D2 /* main.m in Sources */,
+				30FB2DD71D50E6E1001E289F /* ETVideoSearchResultVC.m in Sources */,
 				30C0E3621D4FAB3800F97EF2 /* ETNavigationController.m in Sources */,
 				309A28731D4B9F85001AF7D2 /* UIView+ETExtension.m in Sources */,
 				309A28571D4B9E80001AF7D2 /* TeacherUserCenterVC.m in Sources */,
@@ -717,6 +742,7 @@
 				309A284C1D4B9E80001AF7D2 /* StudentUserCenterVC.m in Sources */,
 				309A284F1D4B9E80001AF7D2 /* TeacherUCMyOrderCell.m in Sources */,
 				309A28481D4B9E80001AF7D2 /* StudentUCTitleCell.m in Sources */,
+				30FB2DE01D50ECA6001E289F /* ETVideoSearchResultCell.m in Sources */,
 				309A28551D4B9E80001AF7D2 /* TeacherUCTitleCell.m in Sources */,
 				309A284D1D4B9E80001AF7D2 /* TeacherUCInfoCell.m in Sources */,
 				309A286B1D4B9F85001AF7D2 /* MBProgressHUD+ETExtension.m in Sources */,
